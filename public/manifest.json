@@ -1,0 +1,20 @@
+{
+  "name": "Dhun - Ad-Free Indian Music",
+  "short_name": "Dhun",
+  "start_url": "/",
+  "id": "/",
+  "display": "standalone",
+  "background_color": "#0b0d14",
+  "theme_color": "#ff6b35",
+  "description": "Unlimited ad-free Indian music streaming for all devices. Bollywood, Punjabi, South, Classical, and Devotional.",
+  "orientation": "any",
+  "categories": ["music", "entertainment"],
+  "icons": [
+    {
+      "src": "/icons/icon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

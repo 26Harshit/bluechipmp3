@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#141724" />
+      <stop offset="50%" stop-color="#0b0d14" />
+      <stop offset="100%" stop-color="#180e0c" />
+    </linearGradient>
+    <linearGradient id="dhun-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ff7e40" />
+      <stop offset="50%" stop-color="#ff512f" />
+      <stop offset="100%" stop-color="#dd2476" />
+    </linearGradient>
+    <linearGradient id="gold-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffd269" />
+      <stop offset="100%" stop-color="#ff9900" />
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="14" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <!-- Background rounded rect -->
+  <rect width="512" height="512" rx="112" fill="url(#bg-grad)" />
+  <rect width="506" height="506" x="3" y="3" rx="109" fill="none" stroke="url(#dhun-grad)" stroke-width="3" stroke-opacity="0.3" />
+
+  <!-- Outer Vinyl Groove circles -->
+  <circle cx="256" cy="256" r="190" fill="none" stroke="#252a3b" stroke-width="2" stroke-dasharray="4 8" opacity="0.6" />
+  <circle cx="256" cy="256" r="160" fill="none" stroke="#ff6b35" stroke-width="1.5" opacity="0.2" />
+
+  <!-- Sitar / Tanpura / Musical Swirl Motif -->
+  <g filter="url(#glow)">
+    <!-- Stylized Hindi 'ध' / Musical Treble & Sitar Fusion -->
+    <path d="M 230 110 C 290 110 330 140 330 190 C 330 230 300 255 260 265 L 260 335 C 260 365 240 385 205 385 C 170 385 145 360 145 330 C 145 295 175 275 210 275 C 225 275 238 280 248 287 L 248 190 C 248 160 270 145 300 145 L 340 145" 
+          fill="none" stroke="url(#dhun-grad)" stroke-width="26" stroke-linecap="round" stroke-linejoin="round" />
+    
+    <!-- Sound Waves / Resonance Aura -->
+    <path d="M 335 220 A 45 45 0 0 1 335 300" fill="none" stroke="url(#gold-grad)" stroke-width="16" stroke-linecap="round" />
+    <path d="M 370 190 A 85 85 0 0 1 370 330" fill="none" stroke="url(#dhun-grad)" stroke-width="16" stroke-linecap="round" opacity="0.85" />
+    <path d="M 405 160 A 125 125 0 0 1 405 360" fill="none" stroke="url(#gold-grad)" stroke-width="16" stroke-linecap="round" opacity="0.5" />
+
+    <!-- Center Note Head with Golden Center -->
+    <circle cx="205" cy="330" r="26" fill="url(#dhun-grad)" />
+    <circle cx="205" cy="330" r="10" fill="#ffd269" />
+  </g>
+</svg>

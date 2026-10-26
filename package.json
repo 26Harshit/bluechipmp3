@@ -1,0 +1,26 @@
+{
+  "name": "dhun-music",
+  "version": "1.0.0",
+  "description": "Ad-free Indian Music Streaming App for Any Device",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "music",
+    "indian-music",
+    "ad-free",
+    "bollywood",
+    "punjabi",
+    "pwa",
+    "streaming"
+  ],
+  "author": "Antigravity",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "crypto-js": "^4.2.0",
+    "express": "^4.21.2",
+    "qrcode": "^1.5.4"
+  }
+}
